@@ -1,0 +1,28 @@
+{
+  "name": "threads-graphql",
+  "version": "1.0.0",
+  "description": "this is a threads app using graphql and postgressql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanishkRichhariya107/Threads-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanishkRichhariya107/Threads-graphql/issues"
+  },
+  "homepage": "https://github.com/KanishkRichhariya107/Threads-graphql#readme",
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@as-integrations/express5": "^1.1.2",
+    "express": "^5.2.1",
+    "graphql": "^16.14.2",
+    "nodemon": "^3.1.14"
+  }
+}
